@@ -1,0 +1,43 @@
+
+body{
+    background-color: black;
+}
+h1{
+    font-family: "Agency FB";
+    color: greenyellow;
+    text-align: center;
+    font-size: xxx-large;
+}
+.launch-system{
+    border: 1px grey double;
+
+    margin: 15px;
+    padding: 7px;
+}
+h2{
+    font-family: "Agency FB";
+    color: greenyellow;
+    text-shadow: 2px 2px black;
+
+}
+.real-alert{
+}
+
+.missile-alert{
+
+    color: greenyellow;
+
+}
+#real-alert{
+    font-size: xxx-large;
+    background-color: darkred;
+
+    color: white;
+    text-shadow: 1px 1px grey;
+}
+#test-only{
+    background-color: green;
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-size: xxx-large;
+}

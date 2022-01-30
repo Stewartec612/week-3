@@ -14,7 +14,7 @@
 
 <div id= button-1 class="launch-system">
 <h2>
-    Engage Launch Sequence
+    Launch Missile Alert
 </h2>
     <a id="real-alert" href="#" >Launch</a> <br>
 </div>
@@ -30,9 +30,9 @@
 <script>
     let realAlert = document.querySelector("#real-alert")
     realAlert.addEventListener('click', function(){
-        let sendalert = confirm('Send REAL alert, are you SURE!?!?!')
+        let sendalert = confirm('-SENDING REAL ALERT- have you been authorized?')
         if (sendalert) {
-            alert('Missile Alert Sent!')
+            alert('Missile alert has been sent.')
             // TODO actually send alert
         } else {
             alert('No alert sent.')

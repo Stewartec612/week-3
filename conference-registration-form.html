@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Roboto+Slab:wght@317&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="conference-styles.css">
+    <title>Conference Registration</title>
+</head>
+<body class="m-3">
+
+<div class="jumbotron">
+    <h1>Conference Registration Form </h1>
+    </div>
+<div class="row">
+
+    <div class="col-md-5">
+        <div class="ml-5">
+            <br><p>Please fill out all the required fields</p>
+        </div>
+    </div>
+
+    <div class="col-md-7">
+
+        <form class="ml-5 mr-5">
+            <br><label for="name">Enter your name:*</label>
+            <input id="name" class="form-control" type="text" required>
+
+           <br><label for="password">Enter your password:*</label>
+            <input id="password" class="form-control" type="password" required>
+
+            <br><label for="email">Enter your email:*</label>
+            <input id="email" class="form-control" type="email" required>
+
+            <label for="size"> T-shirt size:*</label>
+            <select id="size" required>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+
+            <br><label for="dob">Date of birth:*</label>
+            <input id="dob" class="form-control" type="date" required>
+
+            <br><label>Receive email?*</label>
+
+            <div class="form-check">
+                <input name=received id="yes" class="form-check-input" type="radio" checked required>
+                <label for="yes" class="form-check-label">Yes</label>
+            </div>
+
+            <div class="form-check">
+                <input name="received" id="no" class="form-check-input" type="radio" checked required>
+                <label for="no" class="form-check-label">No</label>
+            </div>
+
+            <br><label>What time of day?</label>
+
+           <div class="form-check">
+            <input name="session" id="morning" class=form-check-input" type="checkbox">
+            <label for="morning"class="form-check-label">Morning</label>
+           </div>
+
+            <div class="form-check">
+                <input name="session" id="afternoon" class="form-check-input" type="checkbox">
+                <label for="afternoon" class="form-check-label">Afternoon</label>
+            </div>
+
+            <label for="requests">Any special requests?</label> <br>
+            <textarea id="requests" class="form-control" rows="7" cols="70"></textarea>
+
+            <br><input class="btn btn-primary mt-2" type="submit">
+
+
+
+        </form>
+    </div>
+
+
+</div>
+
+</body>
+</html>

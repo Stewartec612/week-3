@@ -1,0 +1,18 @@
+.jumbotron{
+    background-color: #929ca8;
+    border: darkblue solid;
+
+
+}
+h1{
+    text-shadow: 3px 2px grey;
+}
+.row{
+    font-family: "PT Sans Caption", serif
+}
+
+
+
+body{
+    background-image: linear-gradient(to top,#335f9c, #94aed1);
+}
